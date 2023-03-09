@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;0,400;1,100&display=swap" rel="stylesheet">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    
+        <!--encabezado -->
+        <header>
+            <!--nav bar -->
+            <a href="../index.html">
+                <img class="logo" src="../images/logo.SA.png" alt="Logo de SobreAnsiedad">
+            </a>
+            <nav>
+                <ul>
+                   <li><a href="../index.html">Inicio</a></li>
+                   <li><a href="./causas.html">Causas</a></li>
+                   <li><a href="./sintomas.html">Sintomas</a></li>
+                   <li><a href="./tratamiento.html">Tratamiento</a></li>
+                   <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+            <div class="container">
+              <h1>Deja tu mensaje</h1>
+              <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+        
+        <!--Footer-->
+     <footer>
+        <div>
+            <ul>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Pagina sin fines de lucro</p>
+        </div>
+
+</body>
+
+</html>
